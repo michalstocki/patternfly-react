@@ -1,10 +1,7 @@
 import * as React from 'react';
 import styles from '@patternfly/react-styles/css/components/Table/table';
 import stylesGrid from '@patternfly/react-styles/css/components/Table/table-grid';
-import { InjectedOuiaProps, withOuiaContext } from '@patternfly/react-core/dist/js/components/withOuia/withOuia';
-import { DropdownDirection, DropdownPosition } from '@patternfly/react-core/dist/js/components/Dropdown/dropdownConstants'
-import { DropdownItemProps } from '@patternfly/react-core/dist/js/components/Dropdown/DropdownItem'
-import { Omit } from '@patternfly/react-core/dist/js/helpers/typeUtils'
+import { InjectedOuiaProps, withOuiaContext, DropdownPosition, DropdownDirection, DropdownItemProps, Omit } from '@patternfly/react-core';
 import { css, getModifier } from '@patternfly/react-styles';
 import { Provider } from './base';
 import { BodyCell } from './BodyCell';

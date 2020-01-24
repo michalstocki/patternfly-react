@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { InjectedOuiaProps, withOuiaContext } from '@patternfly/react-core/dist/js/components/withOuia/withOuia';
-import { debounce } from '@patternfly/react-core/dist/js/helpers/util';
+import { InjectedOuiaProps, withOuiaContext, debounce } from '@patternfly/react-core';
 import styles from '@patternfly/react-styles/css/components/Table/table';
 import { css } from '@patternfly/react-styles';
 

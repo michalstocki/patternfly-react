@@ -1,9 +1,12 @@
 import * as React from 'react';
-import { Dropdown } from '@patternfly/react-core/dist/js/components/Dropdown/Dropdown';
-import { DropdownPosition, DropdownDirection } from '@patternfly/react-core/dist/js/components/Dropdown/dropdownConstants';
-import { KebabToggle } from '@patternfly/react-core/dist/js/components/Dropdown/KebabToggle';
-import { DropdownItem } from '@patternfly/react-core/dist/js/components/Dropdown/DropdownItem';
-import { DropdownSeparator } from '@patternfly/react-core/dist/js/components/Dropdown/Separator';
+import {
+  Dropdown,
+  DropdownPosition,
+  DropdownDirection,
+  KebabToggle,
+  DropdownItem,
+  DropdownSeparator
+} from '@patternfly/react-core';
 
 import { IAction, IExtraData, IRowData } from './Table';
 

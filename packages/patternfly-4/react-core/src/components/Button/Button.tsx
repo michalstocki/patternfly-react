@@ -103,3 +103,5 @@ const Button: React.FunctionComponent<ButtonProps & InjectedOuiaProps> = ({
 
 const ButtonWithOuiaContext = withOuiaContext(Button);
 export { ButtonWithOuiaContext as Button };
+
+export default ButtonWithOuiaContext;

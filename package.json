@@ -108,7 +108,7 @@
     "prettier": "node node_modules/.bin/prettier --write \"storybook/**/*.{js,ts,tsx}\" \"packages/**/*.{js,ts,tsx}\" \"scripts/**/*.{js,ts,tsx}\"",
     "serve:docs": "lerna run serve",
     "serve:integration": "lerna run serve:demo-app",
-    "uxpin": "uxpin-merge --webpack-config ./webpack.uxpin.config.js",
+    "uxpin": "uxpin-merge --webpack-config uxpin-merge/webpack.uxpin.config.js --wrapper uxpin-merge/UXPinWrapper.js --disable-tunneling",
     "start": "yarn start:pf3",
     "start:cypress": "lerna run cypress:open",
     "start:demo-app": "lerna run start:demo-app --stream",
